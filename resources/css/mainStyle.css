@@ -1,0 +1,80 @@
+/*global themes*/
+body{
+    background-color: #613867;
+    color: white;
+    font-family: 'Helvetica';
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background: linear-gradient(to right, #7b2391, #bc05e9);
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    flex-shrink: 0;
+}
+
+/*navbar theme*/
+.navbar{
+    background: linear-gradient(to right, #7b2391, #bc05e9)
+}
+
+.navbar .nav-link, .navbar-brand{
+    color: white !important;
+}
+
+.navbar .nav-link:hover{
+    text-decoration: underline;
+}
+
+/*card theme*/
+.card{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Helvetica';
+    border-radius: 8px;
+    background:#9d09c3;
+    color: white;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.card-title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-text{
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/*accordion theme*/
+.accordion-button{
+    background: linear-gradient(to right, #7b2391, #bc05e9);
+    color: white;
+    transition: all 0.6s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(to right, #7b2391, #bc05e9);
+    color: white;
+}
+
+.accordion-button:hover {
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.accordion-body{
+    background-color: #613867;
+    color: white;
+}

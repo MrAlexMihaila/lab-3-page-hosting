@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../resources/css/mainStyle.css">
+</head>
+<body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <img src="../resources/img/img4.svg" alt="Cat Icon" height="30">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Some of My Projects</h2>
+
+        <div class="accordion" id="projectsAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#projectOne"
+                        aria-expanded="true"
+                        aria-controls="projectOne">
+                        Platformer Game
+                    </button>
+                </h2>
+                <div id="projectOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/project1.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Platformer Game">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                This project was an attempt to make a "full" game in a month. Despite the tight deadline, I was able to make
+                                a platformer with five levels where you needed to collect all of an item in the level before you're able to
+                                move on to the next level. The final level also featured a "boss", if you can even call it that. 
+                                On top of the deadline, I also made an effort to make a system that would allow porting and testing on mobile devices to be as easy as possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#projectTwo"
+                        aria-expanded="false"
+                        aria-controls="projectTwo">
+                        Minecraft Discord Mod
+                    </button>
+                </h2>
+                <div id="projectTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/project2.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Discord Mod">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                This project is a mod for Minecraft to allow the client to communicate with Discord in order to display information
+                                in the account's status, such as how long they have been playing for and what item they are holding. This "project"
+                                deserves mention since it has been downloaded/used over 80 thousand times as of 1/29/2026. 
+                                This project made me more confident in my skills as a programmer and designer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#projectThree"
+                        aria-expanded="false"
+                        aria-controls="projectThree">
+                        Full-Scale Game
+                    </button>
+                </h2>
+                <div id="projectThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#projectsAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/project3.jpg"
+                                    class="img-fluid rounded"
+                                    alt="Full Game">
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                This project is currently an effort to make a full-scale game (a game that takes several hours to
+                                go through) from scratch in a similar style to old-school Zelda games.
+                                This project is currently a work in progress as I am still working on the game every single day for the past
+                                2-3 years.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 text-center">
+                    <div class="text-center">
+                        <h5>Social Links</h5>
+                        <a href="https://github.com/MrAlexMihaila"
+                        target="_blank"
+                        class="me-3 text-dark fs-3">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mr.alex.mihaila/"
+                        target="_blank"
+                        class="me-3 text-dark fs-3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2026 Alex Mihaila. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
